@@ -10,7 +10,7 @@ public class HealthCollectible : MonoBehaviour
 
         if (controller != null)
         {
-            if
+            if(Con)
             controller.ChangeHealth(1);
             Destroy(gameObject);
         }
