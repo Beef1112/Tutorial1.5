@@ -31,7 +31,12 @@ public class RubyController : MonoBehaviour
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
 
-        
+        if (isInvincible)
+        {
+            invincibleTimer -= Time.deltaTime;
+            if (invincibleTimer < 0)
+                isInvincible = false;
+        }
     }
 
     void FixedUpdate()
