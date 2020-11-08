@@ -8,7 +8,7 @@ public class RubyController : MonoBehaviour
     void Start()
     {
         QualitySettings.vSyncCount = 0;
-        Application
+        Application.targetFrameRate
     }
 
     // Update is called once per frame
