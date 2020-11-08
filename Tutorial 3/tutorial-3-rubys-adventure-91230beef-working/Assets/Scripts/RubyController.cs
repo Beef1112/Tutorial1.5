@@ -8,6 +8,8 @@ public class RubyController : MonoBehaviour
 
 
     public int maxHealth = 5;
+
+    public int heal
     int currentHealth;
 
     Rigidbody2D rigidbody2d;
