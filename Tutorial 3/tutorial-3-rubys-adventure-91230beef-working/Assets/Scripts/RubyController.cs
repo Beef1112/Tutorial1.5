@@ -13,6 +13,7 @@ public class RubyController : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
     }
+    
     // Update is called once per frame
     void Update()
     {
