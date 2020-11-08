@@ -12,7 +12,8 @@ public class RubyController : MonoBehaviour
     public int health { get { return currentHealth; }}
     int currentHealth;
 
-    bool isInvincible
+    bool isInvincible;
+    
 
     Rigidbody2D rigidbody2d;
     float horizontal;
