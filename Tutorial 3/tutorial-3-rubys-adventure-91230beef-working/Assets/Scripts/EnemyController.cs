@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-{
     public float speed;
 
     Rigidbody2D rigidbody2D;
