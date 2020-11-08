@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealthCollectible : MonoBehaviour
 {
-void OnTriggerEnter2D
+void OnTriggerEnter2D(Collider)
     // Start is called before the first frame update
     void Start()
     {
