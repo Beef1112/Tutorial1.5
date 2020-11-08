@@ -9,12 +9,13 @@ public class RubyController : MonoBehaviour
     public int maxHealth = 5;
 
     public GameObject projectilePrefab;
-    
+
     public float timeInvincible = 2.0f;
 
     public int health { get { return currentHealth; }}
     int currentHealth;
 
+    
     bool isInvincible;
     float invincibleTimer;
 
