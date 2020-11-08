@@ -40,7 +40,7 @@ public class RubyController : MonoBehaviour
         rigidbody2d.MovePosition(position);
     }
 
-    void ChangeHealth(int amount)
+    Public void ChangeHealth(int amount)
     {
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         Debug.Log(currentHealth + "/" + maxHealth);
