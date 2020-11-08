@@ -39,7 +39,7 @@ public class RubyController : MonoBehaviour
 
         Vector2 move = new Vector2(horizontal, vertical);
 
-        if(!Mathf.Approximately(move.x, 0.0f))
+        if(!Mathf.Approximately(move.x, 0.0f) ||)
 
         if (isInvincible)
         {
