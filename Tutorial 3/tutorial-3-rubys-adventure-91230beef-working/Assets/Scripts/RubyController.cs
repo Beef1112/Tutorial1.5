@@ -39,6 +39,8 @@ public class RubyController : MonoBehaviour
 
         Vector2 move = new Vector2(horizontal, vertical);
 
+        if
+
         if (isInvincible)
         {
             invincibleTimer -= Time.deltaTime;
