@@ -37,5 +37,8 @@ public class RubyController : MonoBehaviour
     }
 
     void ChangeHealth(int amount)
-    
+    {
+        
+    }
+
 }
