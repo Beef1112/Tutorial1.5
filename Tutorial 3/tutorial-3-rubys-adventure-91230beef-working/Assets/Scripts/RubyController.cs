@@ -19,7 +19,8 @@ public class RubyController : MonoBehaviour
     float horizontal;
     float vertical;
 
-    Animator animator
+    Animator animator;
+    Vector2
 
     // Start is called before the first frame update
     void Start()
