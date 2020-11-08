@@ -15,7 +15,7 @@ public class RubyController : MonoBehaviour
     public int health { get { return currentHealth; }}
     int currentHealth;
 
-    public float time
+    public float timeInvincible = 2
     bool isInvincible;
     float invincibleTimer;
 
