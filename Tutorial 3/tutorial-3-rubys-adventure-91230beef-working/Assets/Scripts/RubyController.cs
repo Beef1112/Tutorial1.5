@@ -82,4 +82,6 @@ public class RubyController : MonoBehaviour
         Debug.Log(currentHealth + "/" + maxHealth);
     }
 
+    
+
 }
