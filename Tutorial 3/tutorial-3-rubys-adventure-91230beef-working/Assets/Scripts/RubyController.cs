@@ -41,7 +41,8 @@ public class RubyController : MonoBehaviour
 
         if(!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))
         {
-            lookDirection.Set(move.x, move.y)
+            lookDirection.Set(move.x, move.y);
+            lookDirection.Normalize();
         }
 
         if (isInvincible)
