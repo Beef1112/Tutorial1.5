@@ -9,7 +9,8 @@ public class EnemyController : MonoBehaviour
     public float changeTime = 3.0f;
     
     Rigidbody2D rigidbody2D;
-    float 
+    float timer;
+    
     
     // Start is called before the first frame update
     void Start()
