@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RubyController : MonoBehaviour
 {
+    
     Rigidbody2D rigidbody2d;
     float horizontal;
     float vertical;
