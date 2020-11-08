@@ -11,6 +11,7 @@ public class EnemyController : MonoBehaviour
     Rigidbody2D rigidbody2D;
     float timer;
     int direction = 1;
+    bool broken = true;
 
     Animator animator;
     
@@ -28,7 +29,7 @@ public class EnemyController : MonoBehaviour
         {
             return;
         }
-        
+
         timer -= Time.deltaTime;
 
         if (timer < 0)
