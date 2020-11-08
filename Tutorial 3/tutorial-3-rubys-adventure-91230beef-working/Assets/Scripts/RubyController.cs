@@ -7,7 +7,7 @@ public class RubyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rigidb
+        Rigidbody2D = GetComponent<Rigidbody2D>();
     }
     // Update is called once per frame
     void Update()
