@@ -38,7 +38,7 @@ public class RubyController : MonoBehaviour
 
     void ChangeHealth(int amount)
     {
-        currentHealth = Mathf.Clamp(currentHealth +)
+        currentHealth = Mathf.Clamp(currentHealth + amount.CompareTo 0)
     }
 
 }
