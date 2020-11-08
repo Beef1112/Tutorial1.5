@@ -70,7 +70,7 @@ public class RubyController : MonoBehaviour
     {
         if (amount < 0)
         {
-            animator.SetTrigger 
+            animator.SetTrigger("Hit");
             if (isInvincible)
                 return;
             
