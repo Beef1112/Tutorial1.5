@@ -6,7 +6,7 @@ public class RubyController : MonoBehaviour
 {
     public int maxHealth = 5;
     int currentHealth;
-    
+
     Rigidbody2D rigidbody2d;
     float horizontal;
     float vertical;
@@ -35,4 +35,6 @@ public class RubyController : MonoBehaviour
 
         rigidbody2d.MovePosition(position);
     }
+
+    void ChangeHealth
 }
