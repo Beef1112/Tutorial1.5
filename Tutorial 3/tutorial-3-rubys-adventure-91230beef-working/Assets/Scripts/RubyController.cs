@@ -9,7 +9,7 @@ public class RubyController : MonoBehaviour
 
     public int maxHealth = 5;
 
-    public int health {}
+    public int health { get {}}
     int currentHealth;
 
     Rigidbody2D rigidbody2d;
