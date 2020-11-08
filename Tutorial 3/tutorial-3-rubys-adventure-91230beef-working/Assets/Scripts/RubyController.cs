@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RubyController : MonoBehaviour
 {
-    Ri
+    Rigidbody2D rigi
     // Start is called before the first frame update
     void Start()
     {
