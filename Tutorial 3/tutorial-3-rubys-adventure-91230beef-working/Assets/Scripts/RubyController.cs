@@ -27,6 +27,6 @@ public class RubyController : MonoBehaviour
         position.y = position.y + 3.0f * vertical * Time.deltaTime;
         transform.position = position;
 
-        rigidbody2d.MovePosition
+        rigidbody2d.MovePosition(position);
     }
 }
