@@ -27,7 +27,7 @@ public class RubyController : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        
+
         currentHealth = maxHealth;
     }
 
@@ -36,6 +36,8 @@ public class RubyController : MonoBehaviour
     {
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
+
+        Vector2 move = new Vector2
 
         if (isInvincible)
         {
