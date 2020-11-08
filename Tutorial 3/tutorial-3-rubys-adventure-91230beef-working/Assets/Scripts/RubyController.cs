@@ -19,5 +19,6 @@ public class RubyController : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
     }
-    
+
+    v
 }
