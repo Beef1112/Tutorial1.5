@@ -44,6 +44,7 @@ public class RubyController : MonoBehaviour
             lookDirection.Set(move.x, move.y);
             lookDirection.Normalize();
         }
+        
 
         if (isInvincible)
         {
