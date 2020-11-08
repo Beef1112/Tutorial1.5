@@ -62,4 +62,12 @@ public class EnemyController : MonoBehaviour
             player.ChangeHealth(-1);
         }
     }
+
+    public void Fix()
+    {
+        broken = false;
+        rigidbody2D.simulated = false;
+        //optional if you added the fixed animation
+        animator.SetTrigger("Fixed");
+    }
 }
