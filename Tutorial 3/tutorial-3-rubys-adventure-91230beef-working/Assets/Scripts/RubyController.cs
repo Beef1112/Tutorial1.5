@@ -7,6 +7,7 @@ public class RubyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rigidb
     }
     // Update is called once per frame
     void Update()
