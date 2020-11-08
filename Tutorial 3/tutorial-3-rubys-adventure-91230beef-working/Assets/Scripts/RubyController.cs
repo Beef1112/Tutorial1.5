@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RubyController : MonoBehaviour
 {
+    Ri
     // Start is called before the first frame update
     void Start()
     {
