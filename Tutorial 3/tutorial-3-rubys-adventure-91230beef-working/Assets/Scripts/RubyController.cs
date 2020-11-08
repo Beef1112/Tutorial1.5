@@ -10,7 +10,6 @@ public class RubyController : MonoBehaviour
         //QualitySettings.vSyncCount = 0;
         //Application.targetFrameRate = 10;
     }
-
     // Update is called once per frame
     void Update()
     {
