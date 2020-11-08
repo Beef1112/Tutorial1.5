@@ -36,5 +36,6 @@ public class RubyController : MonoBehaviour
         rigidbody2d.MovePosition(position);
     }
 
-    void ChangeHealth
+    void ChangeHealth(int amount)
+    
 }
