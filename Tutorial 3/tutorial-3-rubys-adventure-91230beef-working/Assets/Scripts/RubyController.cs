@@ -91,5 +91,4 @@ public class RubyController : MonoBehaviour
         animator.SetTrigger("Launch");
     }
 
-
 }
