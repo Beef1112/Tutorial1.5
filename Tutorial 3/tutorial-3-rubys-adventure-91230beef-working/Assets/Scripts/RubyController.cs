@@ -63,6 +63,7 @@ public class RubyController : MonoBehaviour
         {
             Launch();
         }
+        
     }
 
     void FixedUpdate()
