@@ -75,5 +75,7 @@ public class EnemyController : MonoBehaviour
         rigidbody2D.simulated = false;
 
         animator.SetTrigger("Fixed");
+
+        smokeffect
     }
 }
