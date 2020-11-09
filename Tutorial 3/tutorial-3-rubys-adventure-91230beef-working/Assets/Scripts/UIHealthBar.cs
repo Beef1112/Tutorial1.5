@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class UIHealthBar : MonoBehaviour
+public class UIHealthBar : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Image mask;
+    float originalSize;
+
     void Start()
     {
-        
+        originalSize = mask.rectTransform.rect.width;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void SetValue(float value)
+    {				      
+        mask.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, originalSize * value);
     }
 }
