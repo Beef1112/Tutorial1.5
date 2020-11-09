@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class UIHealthBar : MonoBehaviour
-public class UIHealthBar : MonoBehaviour
 {
     public Image mask;
     float originalSize;
