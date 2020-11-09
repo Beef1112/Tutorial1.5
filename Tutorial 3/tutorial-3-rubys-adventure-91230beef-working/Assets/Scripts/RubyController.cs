@@ -90,7 +90,7 @@ public class RubyController : MonoBehaviour
         
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
     }
-    
+
     void Launch()
     {
         GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
@@ -100,5 +100,4 @@ public class RubyController : MonoBehaviour
 
         animator.SetTrigger("Launch");
     }
-}
 }
