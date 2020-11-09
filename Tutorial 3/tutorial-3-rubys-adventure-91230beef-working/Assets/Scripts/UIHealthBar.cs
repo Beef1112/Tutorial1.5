@@ -8,6 +8,11 @@ public class UIHealthBar : MonoBehaviour
     public Image mask;
     float originalSize;
 
+    void Awake()
+    {
+        instance = this;
+    }
+
     void Start()
     {
         originalSize = mask.rectTransform.rect.width;
