@@ -168,7 +168,8 @@ MonoBehaviour:
   speed: 2
   vertical: 0
   changeTime: 3
-  smokeEffect: {fileID: 0}
+  smokeEffect: {fileID: 5671740112582451633, guid: 2d18641aedb8a12428031d117b23085b,
+    type: 3}
 --- !u!1001 &858451225700565324
 PrefabInstance:
   m_ObjectHideFlags: 0
