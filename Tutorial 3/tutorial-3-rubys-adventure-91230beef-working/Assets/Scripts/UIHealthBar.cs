@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityE
+using UnityEngine.UI;
 
 public class UIHealthBar : MonoBehaviour
 {
