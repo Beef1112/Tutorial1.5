@@ -82,6 +82,12 @@ public class RubyController : MonoBehaviour
                 }
             }
         }
+
+        function Update () {
+             if (Input.GetKey ("escape")) {
+                 Application.Quit();
+                }
+         }
     }
     
     void FixedUpdate()
